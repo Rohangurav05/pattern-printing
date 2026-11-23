@@ -1,9 +1,11 @@
+
+
 for i in range(1,6):
-    #loop for spacing
     for j in range(1,6-i):
-        print("" ,end=" ")
-    #
-    for k in range(1,i+1):
+        print(" ",end=" ")
+    star=2*i-1
+    for k in range(star):
         print("*",end=" ")
+
     print()
 
